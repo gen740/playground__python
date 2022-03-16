@@ -1,4 +1,5 @@
-import numpy as np
+import math
 
-oeuaoeu
 
+a = 100
+print(a)

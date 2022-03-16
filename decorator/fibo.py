@@ -7,9 +7,9 @@ def fib(n):
     return fib(n - 1) + fib(n-2)
 
 def main():
-    # for i in range(400):
-    #     print(i, fib(i))
-    # print("done")
+    for i in range(400):
+        print(i, fib(i))
+    print("done")
 
     x = 1
     y = [2,2]
