@@ -1,0 +1,6 @@
+import asyncio
+from ..datastructures import Headers
+from typing import Tuple
+
+async def read_request(stream: asyncio.StreamReader) -> Tuple[str, Headers]: ...
+async def read_response(stream: asyncio.StreamReader) -> Tuple[int, str, Headers]: ...

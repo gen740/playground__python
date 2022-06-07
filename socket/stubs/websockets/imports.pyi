@@ -1,0 +1,3 @@
+from typing import Any, Dict, Optional
+
+def lazy_import(namespace: Dict[str, Any], aliases: Optional[Dict[str, str]] = ..., deprecated_aliases: Optional[Dict[str, str]] = ...) -> None: ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+def apply_mask(*args, **kwargs) -> Any: ...
